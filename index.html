@@ -4,45 +4,51 @@
   <meta charset="UTF-8" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet" />
   <title>The sixth work</title>
 </head>
 <body>
   <header>
     <div class="wrapper">
       <div class="header__layout">
-        <div class="header__layout-logo">
-          <img src="./assets/images/Bouncy.png" alt="logo" />
-        </div>
-        <nav class="header__layout-navigation">
-          <ul class="header__layout-navigation-list">
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Helo</a>
+        <div class="header__layout-block">
+          <div class="header__layout-block-logo">
+            <img class="header__layout-block-logo-image" src="./assets/images/Bouncy.png" alt="logo" />
+          </div>
+          <nav class="header__layout-block-navigation">
+          <ul class="header__layout-block-navigation-list">
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Hello</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">About</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">About</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Services</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Services</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Portfolio</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Portfolio</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Team</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Team</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Blog</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Blog</a>
             </li>
-            <li class="header__layout-navigation-list-item">
-              <a href="#" class="header__layout-navigation-list-item-link">Contact</a>
+            <li class="header__layout-block-navigation-list-item">
+              <a href="#" class="header__layout-block-navigation-list-item-link">Contact</a>
             </li>
           </ul>
         </nav>
+        </div>
         <h1 class="header__layout-title">We Are code cafe</h1>
         <span class="header__layout-text">
           At vero eos et accusamus et iusto dignissimos ducimus qui blanditiis prasentium volaptutum
         </span>
-        <div class="header__layout-button">arrow</div>
+        <div class="header__layout-button">
+          <a class="header__layout-button-link" href="#"><i class="fa fa-angle-down header__layout-button-icon"></i></a>
+        </div>
       </div>
     </div>
   </header>
@@ -61,7 +67,7 @@
           <a class="first-screen__layout-description-button" href="#">Read More</a>
         </div>
         <div class="first-screen__layout-photo">
-          <img src="./assets/images/" alt="laptop">
+          <img class="first-screen__layout-photo-image" src="./assets/images/IPAD.png" alt="Ipad">
         </div>
       </div>
     </div>
@@ -75,23 +81,34 @@
             At vero eos et acusamus et odio dignissimos ducimus qui blanditils praesentium
           </span>
           <div class="second-screen__layout-details-list">
-            <i class="fa fa-heart-o"></i>
-            <i class="fa fa-child"></i>
-            <i class="fa fa-lightbulb-o"></i>
+            <a href="#" class="second-screen__layout-details-list-item">
+              <i class="fa fa-heart-o second-screen__layout-details-list-icon--heart"></i>
+            </a>
+            <a href="#" class="second-screen__layout-details-list-item">
+              <i class="fa fa-child second-screen__layout-details-list-icon--child"></i>
+            </a>
+            <a href="#" class="second-screen__layout-details-list-item">
+                <i class="fa fa-lightbulb-o second-screen__layout-details-list-icon--lightbulb"></i>
+            </a>
           </div>
         </div>
         <div class="second-screen__layout-description">
           <div class="second-screen__layout-description-block">
             <h4 class="second-screen__layout-description-block-title">Creative Ideas</h4>
             <span class="second-screen__layout-description-block-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam cumque ipsa non placeat quas quo.
+              Lorem
+              <span class="second-screen__layout-description-block-text--painted">ipsum</span>
+              dolor sit amet, <b>consectetur</b> adipisicing elit. Ad aliquam cumque ipsa non placeat quas quo.
+               Ad aliquam cumque ipsa dolor sit amet, adipisicing elit.
             </span>
           </div>
           <div class="second-screen__layout-description-text">
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eligendi, illo labore magni maxime
-              molestias, pariatur quasi quis quo ratione sed sint, sit temporibus? Autem dolores enim facere iste nemo.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+              Lorem ipsum dolor sit amet, consectetur <b>adipisicing</b> elit. Debitis eligendi, illo labore magni maxime
+              molestias, pariatur quasi quis quo
+              <span class="second-screen__layout-description-text--painted"> ratione</span>
+              sed sint, sit temporibus? Autem dolores enim facere iste nemo.
+              Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Lorem ipsum dolor sit amet, consectetur
               adipisicing elit.
             </span>
           </div>
@@ -100,30 +117,34 @@
     </div>
   </div>
   <div class="third-screen">
-    <div class="wrapper">
-      <div class="third-screen__layout">
-        <div class="third-screen__layout-description">
-          <h3 class="third-screen__layout-description-title">Featured Projects</h3>
-          <span class="third-screen__layout-description-text">
+    <div class="third-screen__layout">
+      <div class="third-screen__layout-description">
+        <h3 class="third-screen__layout-description-title">Featured Projects</h3>
+        <div class="third-screen__layout-description-subtitle">
+          <span class="third-screen__layout-description-subtitle-text">
             At vero eos et acusamus et odio dignissimos ducimus qui blanditils praesentium
           </span>
         </div>
-        <div class="third-screen__layout-gallery">
-          <div class="third-screen__layout-gallery-item">
-            <img class="third-screen__layout-gallery-item-image" src="./assets/images/" alt="Photo1" />
-            <img class="third-screen__layout-gallery-item-image" src="./assets/images/" alt="Photo2" />
-            <img class="third-screen__layout-gallery-item-image" src="./assets/images/" alt="Photo3" />
-          </div>
+      </div>
+      <div class="third-screen__layout-gallery">
+        <div class="third-screen__layout-gallery-item--big">
+          <img class="third-screen__layout-gallery-item-image" src="./assets/images/work1.png" alt="Photo1" />
         </div>
-        <div class="third-screen__layout-feedback">
-          <div class="third-screen__layout-feedback-text">
-            <span>
-              At vero eos et acusamus et odio dignissimos ducimus qui blanditils praesentium
-            </span>
-          </div>
-          <div class="third-screen__layout-feedback-button">
-            <a class="third-screen__layout-feedback-button-link" href="#">Submit Now</a>
-          </div>
+        <div class="third-screen__layout-gallery-item">
+          <img class="third-screen__layout-gallery-item-image" src="./assets/images/work2.png" alt="Photo2" />
+        </div>
+        <div class="third-screen__layout-gallery-item">
+          <img class="third-screen__layout-gallery-item-image" src="./assets/images/work3.png" alt="Photo3" />
+        </div>
+      </div>
+      <div class="third-screen__layout-feedback">
+        <div class="third-screen__layout-feedback-text">
+          <span class="third-screen__layout-feedback-text-property">
+            At vero eos et <b>acusamus</b> et odio dignissimos ducimus qui blanditils
+          </span>
+        </div>
+        <div class="third-screen__layout-feedback-button">
+          <a class="third-screen__layout-feedback-button-link" href="#">Submit Now</a>
         </div>
       </div>
     </div>
